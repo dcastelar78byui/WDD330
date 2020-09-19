@@ -2,13 +2,13 @@
     const weekFile =  [
         {
           Number: "Week 1",
-          Url: "www.google.com",
+          Url: "https://www.google.com/",
           Description: "Table dynamic"
          
         },
         {
           Number: "Week 2",
-          Url: "www.facebook.com",
+          Url: "https://www.facebook.com",
           Description: "Table dynamic 2nd part"
         }
       ]
@@ -26,7 +26,8 @@
 
 
         h2.textContent = weekFile[i].Number; 
-        link.setAttribute = 'href' + weekFile[i].Url;
+        link.textContent = "Link: ";
+        link.href = weekFile[i].Url;
         descrip.textContent = "brief description " + weekFile[i].Description;
         
 
@@ -38,5 +39,3 @@
         document.querySelector('div.linksW1').appendChild(Links);
     }
 ;
-image.setAttribute('src', prophets1[i].imageurl);
-<a href="soda.html">Soda Springs</a>
