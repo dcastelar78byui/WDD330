@@ -17,7 +17,7 @@
 
    /* recorrer*/
     for (let i = 0; i < weekFile.length; i++ ) {
-      let Links = document.createElement('section');
+      let Links = document.createElement('li');
       let h2 = document.createElement('h2');
       let link = document.createElement('a');
       let descrip = document.createElement('p');
