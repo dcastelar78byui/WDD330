@@ -1,10 +1,3 @@
-const btn = document.getElementById('button');
-const rainbow = ['red','orange','yellow','green','blue','rebeccapurple','violet'];
-function change() {      
-    document.body.style.background = rainbow[Math.floor(7*Math.random())];
-}
-btn.addEventListener('click', change);
-
 
 const requestURL = 'https://github.com/dcastelar78byui/WDD330/blob/master/intro/week.json';
 
