@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fisopre Weather</title>
+        <script type="text/javascript" src="./js/toggleMenu.js"></script>
+        <meta name="description" content="W11 Assignment: WeatherSite by Diego Scarpa CIT 230 BYU-I.">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/full_size.css">
+        <link rel="stylesheet" href="css/footercss.css">
+        <link rel="shortcut icon" href="favicon.ico">
+
+    </head>
+    
+    <body data-gr-c-s-loaded="true"><header>
+        <img id="logo" src="images/fisopre1small.jpg" alt="Fisopre Weather">
+          
+      </header>
+    
+      <nav>
+        <nav class="clearfix">
+          <button onclick="toggleMenu()">&#9776</button>
+            <ul id="navigation" class="hide">
+              <li><a href="index.html"> Home</a></li>
+              <li class="active"><a href="preston-10.html">Preston</a></li>
+              <li><a href="soda.html">Soda Springs</a></li>
+              <li><a href="fish.html">Fish Haven</a></li>
+              <li><a href="stormcenter.html">Storm Center</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+      </nav>
+    
+
+    
+
+    <main>
+        <h2 class="city">Preston, Idaho</h2>
+        <div id="herodiv_container" class="contentbox">
+                <picture class="prestonPhoto">
+                  <source media="(max-width: 500px)" srcset="images/cit230_image_franklinOriginal_250.jpeg">
+                  <source media="(max-width: 900px)" srcset="images/cit230_image_franklinOriginal_400.jpeg">
+                  <img src="images/cit230_image_franklinOriginal_600.jpeg" alt="Preston Valley">
+                </picture>           
+                        
+          <section class="weathersummary">
+            <h3> Weather Summary </h3>
+            <p id="current"> Currently: </p> 
+            <div><span id="currently">Cloudy</span></div>
+            
+            <p id="temp">Temperature: </p> 
+            <div><span id="temperature"></span>&#176 F</div>
+            
+            <p id="winds">Wind Speed: </p>             
+            <div> <span id="windspeed">N/A</span> mph</div>
+           
+            <p id="hum">Humidity: </p> 
+            <div><span id="humidity"> </span> &#37 </div>
+
+            <p id="windc">Wind Chill: </p>             
+            <div> <span id="windchill"></span>&#176 F</div>
+
+          </section>
+
+        </div>
+        
+        <section class="forecastCuadro">
+          <h2>5-Day Forecast</h2>
+            <div class="boxclima">
+                        
+            </div> 
+          
+        </section>
+        
+      
+
+        <div id="article_container" class="contentbox">
+          <h2>Windy snowstorm expected to make roads dangerous</h2>
+          <img id="article_img" src="images/preston_news.png" alt="Windy snowstorm">
+          <p id="textfinal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At reprehenderit ratione illo eius numquam animi saepe quisquam atque fuga velit. Commodi, 
+            ullam. Accusantium voluptas accusamus pariatur ratione rerum eos maiores?</br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium nemo 
+          esse repudiandae consequuntur eligendi quidem iste sequi saepe porro! Reiciendis 
+          eius saepe magni et totam repudiandae dolores illo voluptatem.</p>
+        </div>         
+
+        <div class="events"> <h3>Events</h3></div>
+
+        <div class="contactBox">Contact Information</div>
+        
+        
+          <div class="boxNews">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At reprehenderit ratione illo eius numquam animi saepe quisquam atque fuga velit. Commodi, 
+                ullam. Accusantium voluptas accusamus pariatur ratione rerum eos maiores?
+              </p> 
+          </div>
+             
+          
+       
+        
+    </main>
+   
+    <div class="clearfix"></div>
+
+    <footer id="footerFinal">
+      <div class="wrap">
+          <div class="cajaFooter">
+              <ul id="navigation1">
+                  <li><a href="index.html"> Home</a></li>
+                  <li><a href="preston-10.html">Preston</a></li>
+                  <li><a href="soda.html">Soda Springs</a></li>
+                  <li><a href="fish.html">Fish Haven</a></li>
+                  <li><a href="stormcenter.html">Storm Center</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+          </div>
+          <div id="dire"><h5>Fisopre Weather</h5>
+              <h6>Main Street 123</h6>
+              <h6>Preston, Idaho</h6>
+          
+          </div>
+          <div class="cajaFooter">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.5719741330477!2d-111.87339078526703!3d42.095219479205554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e849ab1cf3%3A0xbd0c1aedf30d1b12!2s2-98%20S%202nd%20E%20St%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sar!4v1584982529591!5m2!1sen!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+  
+         
+          <div id="browser"> 
+              <a href="https://www.facebook.com/"><img src="./images/facebook_icon-icons.com_53612.png" alt="" srcset=""> </a>
+              <a href="https://www.instagram.com/"><img src="./images/instagram_icon-icons.com_53610.png" alt="" srcset=""> </a>
+              <a href="https://twitter.com/"><img src="./images/twitter_icon-icons.com_53611.png" alt="" srcset=""> </a>
+              <a href="https://www.pinterest.com/"><img src="./images/pinterest_icon-icons.com_53605.png" alt="" srcset=""> </a>
+          </div>
+          
+
+          
+  
+      </div>
+  
+      
+    </footer>
+    <div id="footerfinal1">
+      <h4>
+      <span>    &copy; </span>       
+      <span> FISOPRE by Diego Scarpa  </span>  
+      <a href="https://openweathermap.org/" target="_blank"> OpenWeatherMap </a> 
+      <span id="currentdate"></span>
+      </h4>
+    </br>
+  </div>
+  
+
+   <script src="./js/currentDate.js"></script>
+   <script src="./js/windchill.js"></script>
+   <script src="./js/toggleMenu.js"></script>
+   <script src="./js/prestonInfo.js"></script>
+   <script src="./js/climaBox.js"></script>
+   <script src="./js/prestonevents.js"></script>
+  </body>
+</html>
+
+   
