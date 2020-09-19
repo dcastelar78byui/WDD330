@@ -9,7 +9,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //console.table(jsonObject);        // temporary checking for valid response and data parsing 
 
-    const weekFile = jsonObject['week'];
+    const weekFile = jsonObject['WDD3330WEEK'];
    /* recorrer*/
     for (let i = 0; i < weekFile.length; i++ ) {
       let card = document.createElement('section');
