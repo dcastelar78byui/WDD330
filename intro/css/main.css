@@ -1,0 +1,30 @@
+* {
+    background-color: limegreen;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+li h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+li p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+

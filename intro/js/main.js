@@ -2,14 +2,14 @@
     const weekFile =  [
         {
           Number: "Week 1",
-          Url: "https://www.google.com/",
+          Url: "./weeks/week1.html",
           Description: "Table dynamic"
          
         },
         {
           Number: "Week 2",
-          Url: "https://www.facebook.com",
-          Description: "Table dynamic 2nd part"
+          Url: "https://www.google.com",
+          Description: ""
         }
       ]
     
@@ -28,7 +28,7 @@
         h2.textContent = weekFile[i].Number; 
         link.textContent = "Link: ";
         link.href = weekFile[i].Url;
-        descrip.textContent = "brief description " + weekFile[i].Description;
+        descrip.textContent = "Brief Description: " + weekFile[i].Description;
         
 
         Links.appendChild(h2);
