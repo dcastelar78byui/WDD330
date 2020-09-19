@@ -17,7 +17,7 @@
 
    /* recorrer*/
     for (let i = 0; i < weekFile.length; i++ ) {
-      let card = document.createElement('section');
+      let Links = document.createElement('section');
       let h2 = document.createElement('h2');
       let link = document.createElement('a');
       let descrip = document.createElement('p');
@@ -27,14 +27,14 @@
 
         h2.textContent = weekFile[i].Number; 
         link.textContent = "Link: " + weekFile[i].Url;
-        descrip.textContent = "Place of Birth: " + weekFile[i].description;
+        descrip.textContent = "brief description " + weekFile[i].Description;
         
 
-        card.appendChild(h2);
-        card.appendChild(link);
-        card.appendChild(descrip);
+        Links.appendChild(h2);
+        Links.appendChild(link);
+        Links.appendChild(descrip);
         
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.linksW1').appendChild(Links);
     }
 ;
