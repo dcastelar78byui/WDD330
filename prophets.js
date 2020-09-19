@@ -34,3 +34,5 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card);
 }
 });
+
+<a href="soda.html">Soda Springs</a>
