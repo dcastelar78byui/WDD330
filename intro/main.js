@@ -37,4 +37,4 @@
 
         document.querySelector('div.cards').appendChild(card);
     }
-});
+;
